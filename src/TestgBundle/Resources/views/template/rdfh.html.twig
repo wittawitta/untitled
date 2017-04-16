@@ -1,0 +1,67 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+
+    <div id="wrapper" xmlns="http://www.w3.org/1999/html">
+        <!-- start header -->
+
+        <!-- end header -->
+        <section id="inner-headline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="breadcrumb">
+                            <li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+                            <li class="active">Infrastructures /  Réseaux FH</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-md-offset-1" align="justify">
+                        <h1> <b> <p style="font-size:22px"> Réseaux de faisceaux hertziens d’acheminement des signaux
+                                </p></b></h1>
+
+                        <hr class="colorgraph">
+                        <br />
+
+                        <p><b>L</b>es réseaux de faisceaux hertziens d’acheminement des signaux sont constitués de réseaux analogiques et de réseaux numériques SDH et PDH,
+                                ils assurent l’acheminement des signaux de télévision, de radio et de données, dans les sens suivants:</p>
+                        <br />
+
+                        <p><b>P</b>our assurer ces services, l’ONT exploite une centaine de sites d’émission et de réémission repartis à travers tout le pays.</p>
+                        <br />
+
+                        <p style="float: left"><img src="{{ asset('templates/img/puce.gif') }}" alt="" /></p>
+                        <p style="line-height: 25px;"><b>C</b>entres de production (nationaux et régionaux) vers les sites de diffusion.</p>
+                        <br />
+
+                        <p style="float: left"><img src="{{ asset('templates/img/puce.gif') }}" alt="" /></p>
+                        <p style="line-height: 25px;"><b>C</b>entres de production régionaux vers les centres de production nationaux et inversement.</p>
+                        <br />
+
+                        <p style="float: left"><img src="{{ asset('templates/img/puce.gif') }}" alt="" /></p>
+                        <p style="line-height: 25px;"><b>S</b>ites sportifs vers les centres de production.</p>
+                        <br />
+
+
+
+
+                        <p> <b>L</b>a longueur totale du réseau d'acheminement par faisceaux hertziens avoisine les 4.000 Km.</p>
+
+                        <br />
+
+                        <hr class="colorgraph">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+{% endblock %}

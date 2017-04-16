@@ -1,0 +1,72 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+
+    <div id="wrapper" xmlns="http://www.w3.org/1999/html">
+    <!-- start header -->
+
+    <!-- end header -->
+    <section id="inner-headline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+                        <li class="active">Qui somme nous? / Historique</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-md-offset-1" align="justify">
+                    <h1> <b> <p style="font-size:22px"> Historique de l'ONT</p></b></h1>
+
+                    <hr class="colorgraph">
+
+                    <p><b>L</b>a fonction télédiffusion sonore et visuelle existait depuis l'indépendance,
+                        mais elle était confondue avec la production des programmes.</p>
+                    <br />
+
+                    <p><b>C</b>'est en vertu d'un décret présidentiel daté du 25 juillet 1975 que fut crée un monopole de la
+                        radiodiffusion sonore et visuelle en Tunisie.</p>
+                    <br />
+
+                    <p><b>L</b>'article 2 de ce décret est consacrée à la fonction diffusion (sous forme de monopole),
+                        quant à l'article 3, il traite de la fonction production (libre exercice).</p>
+                    <br />
+
+                    <p><b>C</b>e n'est qu'en 1982, que la fonction diffusion (qui est une activité relevant du domaine des télécommunications) a
+                        été rattachée au Ministère des Technologies de la Communication. C'est précisément sous forme de direction générale,
+                        en l'occurrence celle de la télédiffusion au ministère des communications.</p>
+                    <br />
+
+                    <p><b>L</b>ors de la restructuration du secteur, et dans le but de donner plus d'autonomie aux structures
+                        de production et de gestion, plusieurs entreprises ont vu le jour. La première entreprise à naître
+                        était justement l'Office National de la télédiffusion crée en vertu de la loi n°93-8 du 1 er Fevrier 1993.
+                        Ont suivi l'Office National des Télécommunications (1995) et l'Office National de la Poste (1998).</p>
+                    <br />
+
+                    <p style="font-size: 16px"><b>Lois et décrets aboutissant à la création de l’Office :</b> </p>
+                    <br />
+
+                    <p><b> <a href=" {{ asset('templates/files/25_avril_57fr.pdf') }}" target="_blank"> Décret du 25 avril 1957 </a> </b>portant institution d’un monopole de la radiodiffusion
+                            sonore et visuelle en Tunisie et création d’un budget annexe de la Radiodiffusion Télévision Tunisienne.</p>
+                    <p><b>  <a href=" {{ asset('templates/files/1363fr.pdf') }}" target="_blank">Décret n°82-1363 du 21 octobre 1982 </a></b> définissant la mission de
+                            la Direction de la Télédiffusion qui relève du Secrétariat d’Etat des PTT.</p>
+                    <p><b>  <a href=" {{ asset('templates/files/loi 93-8fr.pdf') }}"target="_blank">Loi n°93-8 du 1er février 1993 </a></b> portant création de l’Office National de la Télédiffusion.</p>
+                    <hr class="colorgraph">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+{% endblock %}

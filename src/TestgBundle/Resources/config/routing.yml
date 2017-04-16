@@ -1,0 +1,88 @@
+testg_homepage:
+    path:     /index1
+    defaults: { _controller: TestgBundle:Default:index1 }
+layout:
+    path:     /layout
+    defaults: { _controller: TestgBundle:Default:layout }
+index:
+    path:     /index
+    defaults: { _controller: TestgBundle:Default:index }
+portfolio:
+    path:     /portfolio
+    defaults: { _controller: TestgBundle:Default:portfolio }
+contact:
+    path:     /contact
+    defaults: { _controller: TestgBundle:Default:contact }
+presentation:
+    path:    /presentation
+    defaults: { _controller: TestgBundle:Default:presentation }
+
+historique:
+    path:    /historique
+    defaults: { _controller: TestgBundle:Default:historique }
+missions:
+    path:    /missions
+    defaults: { _controller: TestgBundle:Default:missions }
+organisation:
+    path:    /organisation
+    defaults: { _controller: TestgBundle:Default:organisation }
+rh:
+    path:    /rh
+    defaults: { _controller: TestgBundle:Default:rh }
+chiffre:
+    path:    /chiffre
+    defaults: { _controller: TestgBundle:Default:chiffre }
+rdradio:
+    path:    /rdradio
+    defaults: { _controller: TestgBundle:Default:rdradio }
+rdtv:
+    path:    /rdtv
+    defaults: { _controller: TestgBundle:Default:rdtv }
+rdfh:
+    path:    /rdfh
+    defaults: { _controller: TestgBundle:Default:rdfh }
+dtelevision:
+    path:    /dtelevision
+    defaults: { _controller: TestgBundle:Default:dtelevision }
+dradio:
+    path:    /dradio
+    defaults: { _controller: TestgBundle:Default:dradio }
+cqreception:
+    path:    /cqreception
+    defaults: { _controller: TestgBundle:Default:cqreception }
+ecouteradio:
+    path:    /ecouteradio
+    defaults: { _controller: TestgBundle:Default:ecouteradio }
+transmissionfh:
+    path:    /transmissionfh
+    defaults: { _controller: TestgBundle:Default:transmissionfh }
+transmissionfixe:
+    path:    /transmissionfixe
+    defaults: { _controller: TestgBundle:Default:transmissionfixe }
+transmissionmobile:
+    path:    /transmissionmobile
+    defaults: { _controller: TestgBundle:Default:transmissionmobile }
+devmaint:
+    path:    /devmaint
+    defaults: { _controller: TestgBundle:Default:devmaint }
+location:
+    path:    /location
+    defaults: { _controller: TestgBundle:Default:location }
+services:
+    path:    /services
+    defaults: { _controller: TestgBundle:Default:services }
+etapetnt:
+    path:    /etapetnt
+    defaults: { _controller: TestgBundle:Default:etapetnt }
+diffusion:
+    path:    /diffusion
+    defaults: { _controller: TestgBundle:Default:diffusion }
+normec:
+    path:    /normec
+    defaults: { _controller: TestgBundle:Default:normec }
+zonec:
+    path:    /zonec
+    defaults: { _controller: TestgBundle:Default:zonec }
+commentrecevoir:
+    path:    /commentrecevoir
+    defaults: { _controller: TestgBundle:Default:commentrecevoir }

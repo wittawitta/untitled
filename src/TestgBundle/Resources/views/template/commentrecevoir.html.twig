@@ -1,0 +1,82 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+
+
+    <div id="wrapper" xmlns="http://www.w3.org/1999/html">
+    <!-- start header -->
+
+    <!-- end header -->
+    <section id="inner-headline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
+                        <li class="active"> TNT / Aspects techniques de la TNT / Comment recevoir la TNT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-md-offset-1" align="justify">
+                    <h1> <b> <p style="font-size:22px">Comment recevoir la TNT</p></b></h1>
+
+                    <hr class="colorgraph">
+                    <br />
+                    <p><b>Pour recevoir la TNT il faut s’équiper :</b></p>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-sm-5 col-md-3"><img src="{{ asset('templates/img/antenne.jpg') }}" alt=""  height="100" width="200"/></div>
+                        <div class=" col-md-6 "> <b>1- Une antenne TV UHF </b>, similaire à celle utilisée actuellement pour la réception
+                            de la TV analogique terrestre en bande UHF (les antennes actuellement installées dans les foyers permettront la
+                            réception de la TNT). A proximité des émetteurs, il est possible de recevoir la TNT avec des antennes de type portatif externe ou intégrée avec le téléviseur
+                        </div>
+                        <div class="col-lg-offset-2"><img src="{{ asset('templates/img/antenne_p.jpg') }}" alt=""  height="100" width="200"/></div>
+
+                    </div>
+
+                    <p><b>2- Un récepteur TV numérique terrestre</b> qui sera selon l’un des types suivants :</p>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-sm-5 col-md-3"><img src="{{ asset('templates/img/recepteur.jpg') }}" alt=""  height="100" width="200"/></div>
+                        <div class=" col-md-6 "> <b>2-1- </b>Téléviseur avec Tuner numérique intégré iDTV de type LCD ou PLASMA ou similaire: doté d’un décodeur MPEG4-AVC SD/HD intégré
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-5 col-md-3"><img src="{{ asset('templates/img/decodeur.jpg') }}" alt=""  height="100" width="200"/></div>
+                        <div class=" col-md-6 "> <b>2-1- </b>un décodeur ou adaptateur numérique externe (SETTOP BOX), MPEG4-AVC SD/HD ou MPEG4-AVC SD,
+                            qui s’ajoute au téléviseur analogique classique ou à un téléviseur numérique, non dotés de décodeur MPEG4 AVC.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-5 col-md-3"><img src="{{ asset('templates/img/adaptateur.jpg') }}" alt=""  height="100" width="200"/></div>
+                        <div class=" col-md-6 "> <b>2-3- </b>un décodeur ou adaptateur numérique, MPEG4-AVC SD/HD ou MPEG4-AVC SD,
+                            qui s’ajoute à un ordinateur sous forme de clé USB ou de carte appropriée avec des drivers spécifiques.
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <br />
+                    <hr class="colorgraph">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+{% endblock %}
